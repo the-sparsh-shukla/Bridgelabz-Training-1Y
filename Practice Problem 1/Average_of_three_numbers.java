@@ -1,11 +1,18 @@
+import java.util.Scanner;
+
 class AverageOfThreeNumbers {
     public static void main(String[] args) {
-        double a = 10;
-        double b = 20;
-        double c = 30;
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter first number: ");
+            double a = sc.nextDouble();
+            System.out.print("Enter second number: ");
+            double b = sc.nextDouble();
+            System.out.print("Enter third number: ");
+            double c = sc.nextDouble();
 
-        double average = (a + b + c) / 3;
+            double average = (a + b + c) / 3;
 
-        System.out.println("Average = " + average);
+            System.out.println("Average = " + average);
+        }
     }
 }

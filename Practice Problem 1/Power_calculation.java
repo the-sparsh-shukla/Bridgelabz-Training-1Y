@@ -1,10 +1,16 @@
+import java.util.Scanner;
+
 class PowerCalculation {
     public static void main(String[] args) {
-        double base = 2;
-        double exponent = 3;
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter base: ");
+            double base = sc.nextDouble();
+            System.out.print("Enter exponent: ");
+            double exponent = sc.nextDouble();
 
-        double result = Math.pow(base, exponent);
+            double result = Math.pow(base, exponent);
 
-        System.out.println("Result = " + result);
+            System.out.println("Result = " + result);
+        }
     }
 }
