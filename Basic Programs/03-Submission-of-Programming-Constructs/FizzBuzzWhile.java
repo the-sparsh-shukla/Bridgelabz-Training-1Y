@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class FizzBuzzWhile {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner raj = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
-        int number = input.nextInt();
+        int number = raj.nextInt();
 
-        if (number > 0) {   // check positive integer
+        if (number > 0) {   
 
             int i = 1;
             while (i <= number) {
@@ -26,11 +26,12 @@ public class FizzBuzzWhile {
                     System.out.println(i);
                 }
 
-                i++;   // increment
+                i++;   
             }
 
         } else {
             System.out.println("Please enter a positive integer.");
         }
+        raj.close();
     }
 }

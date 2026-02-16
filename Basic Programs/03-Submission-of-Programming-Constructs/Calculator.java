@@ -3,17 +3,17 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner mayank = new Scanner(System.in);
         double first, second;
         String op;
         System.out.print("Enter first number: ");
-        first = input.nextDouble();
+        first = mayank.nextDouble();
 
         System.out.print("Enter second number: ");
-        second = input.nextDouble();
+        second = mayank.nextDouble();
 
         System.out.print("Enter operator (+, -, *, /): ");
-        op = input.next();
+        op = mayank.next();
         switch (op) {
             case "+":
                 System.out.println("Result = " + (first + second));
@@ -37,5 +37,6 @@ public class Calculator {
             default:
                 System.out.println("Invalid Operator");
         }
+        mayank.close();
     }
 }

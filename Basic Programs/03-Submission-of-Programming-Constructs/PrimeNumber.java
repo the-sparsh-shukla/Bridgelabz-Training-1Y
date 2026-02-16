@@ -16,7 +16,7 @@ public class PrimeNumber {
             for (int i = 2; i < number; i++) {
                 if (number % i == 0) {
                     isPrime = false;
-                    break;   /
+                    break; 
                 }
             }
         }
@@ -26,5 +26,6 @@ public class PrimeNumber {
         } else {
             System.out.println(number + " is not a Prime Number");
         }
+        input.close();
     }
 }

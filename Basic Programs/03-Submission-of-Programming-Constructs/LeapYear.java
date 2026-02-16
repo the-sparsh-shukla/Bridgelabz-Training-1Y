@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class LeapYear {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
 
         System.out.print("Enter a year: ");
-        int year = input.nextInt();
+        int year = in.nextInt();
 
         if (year < 1582) {
             System.out.println("Year must be 1582 or later.");
@@ -28,5 +28,6 @@ public class LeapYear {
         } else if (year >= 1582) {
             System.out.println("(Logical Check) Year is not a Leap Year");
         }
+        in.close();
     }
 }

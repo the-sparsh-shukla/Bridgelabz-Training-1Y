@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class GreatestFactorWhile {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner raj = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
-        int number = input.nextInt();
+        int number = raj.nextInt();
 
         int greatestFactor = 1;      
         int counter = number - 1;    
@@ -25,5 +25,6 @@ public class GreatestFactorWhile {
                 "Greatest factor of " + number + " (beside itself) is: " + greatestFactor
             );
         }
+        raj.close();
     }
 }

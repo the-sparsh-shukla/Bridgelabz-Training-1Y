@@ -1,9 +1,9 @@
 import java.util.Scanner;
 public class ArmstrongNumber{
 	public static void main(String [] args){
-	Scanner input = new Scanner(System.in);
+	Scanner kiki = new Scanner(System.in);
 	System.out.println("enter the number");
-	int number = input.nextInt();
+	int number = kiki.nextInt();
 	int sum =0;
 	int originalNumber = number;
 	while(originalNumber !=0){
@@ -17,5 +17,6 @@ public class ArmstrongNumber{
 	else {
 	System.out.println(number+ "is not armstrong number");
 	}
+	kiki.close();
 	}
 	}

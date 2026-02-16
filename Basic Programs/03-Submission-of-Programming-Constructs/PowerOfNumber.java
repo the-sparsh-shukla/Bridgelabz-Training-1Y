@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class PowerOfNumber {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner raj = new Scanner(System.in);
 
         System.out.print("Enter the number: ");
-        int number = input.nextInt();
+        int number = raj.nextInt();
 
         System.out.print("Enter the power: ");
-        int power = input.nextInt();
+        int power = raj.nextInt();
 
         int result = 1;  
         
@@ -24,5 +24,6 @@ public class PowerOfNumber {
         } else {
             System.out.println("Please enter positive integers only.");
         }
+        raj.close();
     }
 }

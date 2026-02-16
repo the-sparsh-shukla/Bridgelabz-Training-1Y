@@ -1,19 +1,19 @@
 import java.util.Scanner;
 public class FriendsDetails {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner raj = new Scanner(System.in);
         System.out.print("Enter Amar's age: ");
-        int amarAge = input.nextInt();
+        int amarAge = raj.nextInt();
         System.out.print("Enter Akbar's age: ");
-        int akbarAge = input.nextInt();
+        int akbarAge = raj.nextInt();
         System.out.print("Enter Anthony's age: ");
-        int anthonyAge = input.nextInt();
+        int anthonyAge = raj.nextInt();
         System.out.print("Enter Amar's height: ");
-        int amarHeight = input.nextInt();
+        int amarHeight = raj.nextInt();
         System.out.print("Enter Akbar's height: ");
-        int akbarHeight = input.nextInt();
+        int akbarHeight = raj.nextInt();
         System.out.print("Enter Anthony's height: ");
-        int anthonyHeight = input.nextInt();
+        int anthonyHeight = raj.nextInt();
      
 	 if (amarAge <= akbarAge && amarAge <= anthonyAge) {
             System.out.println("Amar is the youngest.");
@@ -31,5 +31,6 @@ public class FriendsDetails {
         } else {
             System.out.println("Anthony is the tallest.");
         }
+        raj.close();
     }
 }

@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class MultiplesWhile {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner raj = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
-        int number = input.nextInt();
+        int number = raj.nextInt();
 
         if (number > 0 && number < 100) {
 
@@ -24,5 +24,6 @@ public class MultiplesWhile {
         } else {
             System.out.println("Please enter a positive number less than 100.");
         }
+        raj.close();
     }
 }

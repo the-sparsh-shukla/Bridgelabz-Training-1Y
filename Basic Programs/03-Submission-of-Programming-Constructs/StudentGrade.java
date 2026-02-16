@@ -34,5 +34,6 @@ public class StudentGrade {
             System.out.println("Grade: F");
             System.out.println("Remarks: Fail");
         }
+        input.close();
     }
 }

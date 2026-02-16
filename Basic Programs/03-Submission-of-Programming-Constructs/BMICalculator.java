@@ -1,12 +1,12 @@
 import java.util.Scanner;
 public class BMICalculator {
 	public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner po = new Scanner(System.in);
         System.out.print("Enter weight (in kg): ");
-        double weight = input.nextDouble();
+        double weight = po.nextDouble();
 
         System.out.print("Enter height (in cm): ");
-        double heightCm = input.nextDouble();
+        double heightCm = po.nextDouble();
 
         double heightMeter = heightCm / 100;
 
@@ -26,5 +26,6 @@ public class BMICalculator {
 		else {
             System.out.println("Weight Status: Obese");
         }
+        po.close();
     }
 }

@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class FizzBuzz {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner raj = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
-        int number = input.nextInt();
+        int number = raj.nextInt();
 
-        if (number > 0) {   // check positive integer
+        if (number > 0) {   
 
             for (int i = 1; i <= number; i++) {
 
@@ -29,5 +29,6 @@ public class FizzBuzz {
         } else {
             System.out.println("Please enter a positive integer.");
         }
+        raj.close();
     }
 }

@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class FactorsUsingWhile {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner raj = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
-        int number = input.nextInt();
+        int number = raj.nextInt();
 
         if (number <= 0) {
             System.out.println("Please enter a positive integer.");
@@ -22,5 +22,6 @@ public class FactorsUsingWhile {
                 i++; 
             }
         }
+        raj.close();
     }
 }

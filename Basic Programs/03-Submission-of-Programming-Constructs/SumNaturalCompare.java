@@ -1,10 +1,11 @@
 import java.util.Scanner;
+
 public class SumNaturalCompare {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = input.nextInt();
-        if (n >= 1) {   // check natural number
+        if (n >= 1) {
             int formulaSum = n * (n + 1) / 2;
             int loopSum = 0;
             int i = 1;

@@ -1,12 +1,11 @@
 import java.util.Scanner;
 
-import java.util.Scanner;
 public class CountDigits {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner raj = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        int number = input.nextInt();
-        int count = 0;   // b. initialize count
+        int number = raj.nextInt();
+        int count = 0;   
         if (number == 0) {
             count = 1;
         } else {
@@ -17,5 +16,7 @@ public class CountDigits {
       }
 
         System.out.println("Number of digits = " + count);
+
+        raj.close();
     }
 }

@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class PowerWhile {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner raj = new Scanner(System.in);
 
         System.out.print("Enter number: ");
-        int number = input.nextInt();
+        int number = raj.nextInt();
 
         System.out.print("Enter power: ");
-        int power = input.nextInt();
+        int power = raj.nextInt();
 
         int result = 1;     
 		int counter = 0;    
@@ -27,5 +27,6 @@ public class PowerWhile {
         } else {
             System.out.println("Please enter valid positive integers.");
         }
+        raj.close();
     }
 }
