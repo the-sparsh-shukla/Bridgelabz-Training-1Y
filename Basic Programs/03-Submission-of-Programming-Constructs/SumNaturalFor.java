@@ -1,11 +1,11 @@
 import java.util.Scanner;
 public class SumNaturalFor{
-	public sttic void main(String [] args){
+	public static void main(String [] args){
 	Scanner input = new Scanner(System.in);
 	System.out.println("enter the natural no");
 	int no = input.nextInt();
 	if(no>=0){
-	int formulaSum = n * (n+1)/2;
+	int formulaSum = no * (no+1)/2;
 	int loopSum = 0;
 	for(int i=0 ; i<=no ; i++){
 		loopSum = loopSum + i;
@@ -13,7 +13,7 @@ public class SumNaturalFor{
 		System.out.println("sum using:" + formulaSum);
 		System.out.println("sum using:" + loopSum);
 		
-		if(formulaSum = loopSum){
+		if(formulaSum == loopSum){
 			System.out.println("both are equal");
 			}
 			else{

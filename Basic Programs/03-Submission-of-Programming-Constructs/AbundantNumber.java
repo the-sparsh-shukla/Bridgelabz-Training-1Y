@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class AbundantNumber {
     public static void main(String[] args) {
 
-        Scanner raj = new Scanner(System.in);
+        Scanner me = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        int number = raj.nextInt();
+        int number = me.nextInt();
         int sum = 0;
         for (int i = 1; i < number; i++) {
             if (number % i == 0) {
@@ -17,6 +17,6 @@ public class AbundantNumber {
         } else {
             System.out.println(number + " is not an Abundant Number");
         }
-        raj.close();
+        me.close();
     }
 }

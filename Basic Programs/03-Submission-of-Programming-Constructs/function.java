@@ -1,5 +1,4 @@
-import java.util.Scanner;
-public class ffunction{
+public class function{
 	public static void main(String [] args){
 		something();
 		System.out.println("good morning");
