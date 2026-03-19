@@ -1,4 +1,4 @@
 package com.gla.exceptionalhandling;
 
-public class Expection {
+public class Exception {
 }
