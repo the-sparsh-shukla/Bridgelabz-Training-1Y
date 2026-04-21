@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a24c3c9e-fc63-49f2-b1c8-84fb6d12ce17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/gla/exceptionalhandling/Exception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gla/exceptionalhandling/Throws.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gla/multithreading/Thread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
